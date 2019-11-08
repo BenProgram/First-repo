@@ -11,5 +11,5 @@ class Employee:
 
 emp_1 = Employee('kasongo', 'Freddy', 6000)
 emp_2 = Employee('benjamin', 'malunda', 50000)
-
-print(emp_1.fullname())
+#emp_1.fullname()
+print(Employee.fullname(emp_2))
